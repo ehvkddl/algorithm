@@ -14,10 +14,8 @@ public class Solution {
         for(int i = 1; i < num; i++ ){
             arr[i+1] = arr[i-1] + arr[i];
         }
-
-
+        
         System.out.println(arr[num]);
-
 
     }
 }
